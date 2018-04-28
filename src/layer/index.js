@@ -1,4 +1,5 @@
 export {Layer} from './Layer';
+export {Indoor, indoor} from './IndoorLayer';
 export {LayerGroup, layerGroup} from './LayerGroup';
 export {FeatureGroup, featureGroup} from './FeatureGroup';
 import {GeoJSON, geoJSON, geoJson, geometryToLayer, coordsToLatLng, coordsToLatLngs, latLngToCoords, latLngsToCoords, getFeature, asFeature} from './GeoJSON';
